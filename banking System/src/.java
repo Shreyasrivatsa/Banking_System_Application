@@ -66,7 +66,7 @@ public class Banking_System_Application {
 
 	    static bankaccount createAccount(Scanner sc) {
 	        try {
-	            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/banking", "root", "root"); // Replace with your DB details
+	            Connection connection = DriverManager.getConnection("url", "mysql username", "mysql password"); // Replace with your DB details
 
 	            System.out.print("Enter customer name: ");
 	            String cname = sc.nextLine();
