@@ -1,1 +1,1 @@
-# Banking_System_Application
+A Bank Management System using JDBC and MySQL is a software solution designed to handle various banking operations efficiently. It enables functionalities such as account creation, deposits, withdrawals and balance inquiries by managing customer and transaction data in a MySQL database.
